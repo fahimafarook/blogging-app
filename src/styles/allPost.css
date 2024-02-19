@@ -1,0 +1,8 @@
+
+ 
+ .all-post-page {
+   background-color: var(--background);
+   color: var(--fontColor);
+   padding-bottom: 5vmin;
+   border-radius: 10px;
+ }

@@ -1,0 +1,10 @@
+.pagination{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    font-size: x-large;
+    color: var(--fontColor);
+    background-color: rgb(233, 172, 91);
+}

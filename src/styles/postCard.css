@@ -1,0 +1,51 @@
+.post-card{
+   height: 55vmin;
+   border: solid 1px rgb(222, 213, 207);
+   border-radius: 10px;
+   min-height: 350px;
+   overflow: hidden;
+   padding-bottom: 2vmin;
+   margin-top: 3vmin;
+}
+
+.post-image{
+   width: 100%;
+   height: 60%;
+   object-fit: cover;
+   border-radius: 10px 10px 0 0;
+}
+
+.tags-container{
+   display: flex;
+   flex-wrap: wrap;
+   min-height: 70px;
+}
+
+.post-tag{
+   color: var(--fontColor);
+   background-color: var(--secondary);
+   width: fit-content;
+   padding: 3px 10px;
+   border-radius: 10px;
+   margin: 0;
+   font-size: small;
+   font-weight: 300;
+   height: fit-content;
+}
+
+.post-title{
+   font-size: large;
+   font-weight: 900;
+}
+
+.post-content{
+   font-size: small;
+   font-weight: 200;
+   overflow: hidden;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2; 
+   text-wrap: balance;
+   text-align:justify;
+   margin-bottom: 7px;
+}
